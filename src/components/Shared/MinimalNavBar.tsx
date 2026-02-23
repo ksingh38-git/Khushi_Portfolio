@@ -53,7 +53,7 @@ export function MinimalNavBar() {
                         </Link>
                     ))}
                     <a
-                        href="/Khushi-Singh-Resume.pdf"
+                        href="./Khushi-Singh-Resume.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-gray-600 hover:text-blue-600 transition-colors"
