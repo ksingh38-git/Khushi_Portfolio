@@ -23,7 +23,7 @@ export function EducationSection() {
             description: [
                 "Built a solid foundation in programming, databases, networking, and software development through the B.Sc. Information Technology curriculum.",
                 "Worked on academic projects involving basic data processing, software design, and database-driven applications, which sparked my interest in data engineering.",
-                "Graduated in 2017 with strong fundamentals that I later extended into analytics and data engineering roles."
+                "Graduated in 2020 with strong fundamentals that I later extended into analytics and data engineering roles."
             ]
         }
     ];

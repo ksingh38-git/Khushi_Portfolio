@@ -38,7 +38,7 @@ export default function Home() {
       <ContactSection />
 
       <footer className="w-full py-8 text-center text-sm text-gray-400 font-mono">
-        <p>&copy; {new Date().getFullYear()} Khushi Singh. Built with Next.js & Tailwind CSS.</p>
+        <p>&copy; {new Date().getFullYear()} Khushi Singh Built with Next.js & Tailwind CSS.</p>
       </footer>
     </main>
   );
