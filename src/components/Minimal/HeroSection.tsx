@@ -63,7 +63,7 @@ export function HeroSection() {
             <div className="flex-1 flex justify-center items-center order-1 md:order-2 w-full max-w-[280px] md:max-w-[400px] animate-fade-in-up md:mt-12" style={{ animationDelay: '200ms' }}>
                 <div className="relative w-full aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl shadow-blue-900/10 border-4 border-white transform rotate-2 hover:rotate-0 transition-transform duration-500">
                     <Image
-                        src="/Profile.PNG"
+                        src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/Profile.PNG`}
                         alt="Khushi Singh"
                         fill
                         className="object-cover"
