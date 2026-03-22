@@ -23,7 +23,7 @@ export const portfolioData = {
     categories: [
       {
         name: "Databases & SQL",
-        skills: ["SQL", "PL/SQL", "Oracle", "BigQuery", "Data Modeling", "Dimensional Modeling"]
+        skills: ["SQL", "PL/SQL", "Oracle", "BigQuery", "Snowflake", "Data Modeling", "Dimensional Modeling"]
       },
       {
         name: "Data Engineering",
@@ -151,7 +151,21 @@ export const portfolioData = {
         "Performed correlation analysis between humidity, temperature, and target variables.",
         "Demonstrated 5% accuracy lift by engineering new temporal-weather interaction features."
       ]
-    }
+    },
+    {
+    title: "Swiggy-Inspired End-to-End Data Pipeline",
+    description:
+      "Designed a Snowflake medallion-style pipeline (Stage → Clean → Consumption) with Streams, MERGE upserts, star-schema modeling, and a Date Dimension for a food-delivery use case.",
+    stack: ["Snowflake", "SQL", "Streams", "MERGE", "Star Schema", "SCD Type 2"],
+    repo: "", // add GitHub link if you push the SQL/code later
+    stats: { entities: "9+", type: "End-to-End Pipeline" },
+    deepDive: [
+      "Implemented initial + delta loads via internal stages, COPY INTO, and Snowflake Streams.",
+      "Modeled an order-item fact table with multiple SCD2 dimensions and a recursive CTE–based Date Dimension.",
+      "Applied TRY_CAST-safe transformations and business rules (state codes, city tiers, PII tagging) in the clean layer."
+    ]
+  }
+
   ],
 
   education: [
